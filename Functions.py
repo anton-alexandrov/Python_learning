@@ -56,10 +56,3 @@ user2 = create_user ("Iser name 2", "212134343", "Raleigh, NC")
 print(user1)
 print(user2)
 
-#finction with unknown number of input parameters
-def award (award, *names):
-    for name in names:
-        print (name.title()+" got the "+award + " award! Congrats!")
-
-award ("best person of the year", "Name 1", "Name 2")
-award("best team of the year", "Name 3", "Name 4", "Name 5")
