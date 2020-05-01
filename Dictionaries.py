@@ -40,3 +40,9 @@ for x in range (0,10):
 
 for enemy in all_enemies:
     print (enemy)
+
+
+planets = {
+    'id': id
+    'name': name
+}
