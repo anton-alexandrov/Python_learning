@@ -2,7 +2,7 @@ import os
 import time
 
 source = './Test_Files'
-target_dir = './Test_Files_copy'
+target_dir = 'Test_Files_copy'
 
 target = target_dir + os.sep + time.strftime('%Y%m%d%H%M%S') + '.zip'
 zip_command = "zip -qr {0} {1}".format(target, ''.join(source))

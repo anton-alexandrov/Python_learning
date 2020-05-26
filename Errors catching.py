@@ -1,6 +1,6 @@
 import sys
 
-filename = './Input files/namesk.txt'
+filename = 'Files/Input files/namesk.txt'
 try:
     print ("We are inside TRY block")
     myfile = open (filename, mode = 'r', encoding='utf-8')
