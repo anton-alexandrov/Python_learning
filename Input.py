@@ -26,3 +26,10 @@ while message!='stop':
     message = raw_input ("Please enter next item or stop: ")
     my_list.append(message)
 print (my_list)
+
+
+#####################
+n = input()
+
+print(f'The next number for the number {int(n)} is {int(n)+1}')
+print(f'The previous number for the number {int(n)} is {int(n)-1}.')
