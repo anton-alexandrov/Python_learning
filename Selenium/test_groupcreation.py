@@ -6,7 +6,6 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 
-
 class TestGroupcreation():
 
     driver = webdriver.Chrome(ChromeDriverManager().install())

@@ -9,3 +9,7 @@ last_name = "Aleksandrov"
 age = 41
 
 print (first_name + " " + last_name + " " + str(age))
+
+print (type(number))
+
+print (type(text))
