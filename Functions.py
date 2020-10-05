@@ -1,16 +1,18 @@
 # how to create
-def func_name(name):
-    """description"""
+def func_name(name:str):
+    """Document lines
+    Describes the function behaviour, could be seen when run help
+    """
     print ("Hello, "+name)
     print ("How are you?")
-    answer = raw_input ("Please enter fine / not fine: ")
+    answer = input ("Please enter fine / not fine: ")
     if answer=="fine":
         print("Glad to see you are fine, "+name)
     elif answer=="not fine":
        print( "Oh, I'm sorry")
     else:
         print("Sorry, I didn't get it")
-name = raw_input ("What's your name? ")
+name = input ("What's your name? ")
 func_name(name)
 
 #finction wih 2 parameters
@@ -56,3 +58,11 @@ user2 = create_user ("Iser name 2", "212134343", "Raleigh, NC")
 print(user1)
 print(user2)
 
+
+def hello_sep (name = 'World', sep = '-'):
+    print("Hello", name, sep=sep)
+def hello (name='Karl'):
+    print("Hello", name)
+hello_sep()
+hello_sep("John")
+hello()

@@ -4,6 +4,7 @@ print(my_dict['k1'])
 print(my_dict['k3'][2:6])
 print(my_dict['k4']['internalKey'])
 
+
 #adding new element
 my_dict['k5'] = 'added element'
 print(my_dict)
@@ -24,5 +25,9 @@ print(my_dict)
 
 #creating a empty dict
 d = {}
+
+#create a list from values
+list_of_values = list(my_dict.values())
+print (list_of_values)
 
 

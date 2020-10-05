@@ -1,5 +1,7 @@
-age = 1
+if True:
+    print("It's true")
 
+age = 1
 if (age <= 2):
     print ("You are baby")
 elif (age>2) and (age<5):
@@ -11,19 +13,11 @@ elif (age>=10) and (age<=19):
 else:
     print ("You are adult")
 
-
 print ("++++++++++++++++")
-
 all_cars = ['lada', 'toyota','honda', 'bmw','mercedes', 'fiat']
 japanese_cars = ['honda', 'toyota', 'accura']
 
 if 'lada' in all_cars:
     print ("Lada is in the list")
-else: 
+else:
     print ("Lada IS NOT in the list")
-
-for car in all_cars:
-    if car in japanese_cars:
-        print (car.title() + " is Japanese car")
-    else:
-        print (car.title()+ " is NOT Japanese car")

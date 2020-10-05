@@ -85,3 +85,15 @@ cars.append('accura')
 print (cars)
 print (mycars)
 print (mycars1)
+
+
+my_list = []
+for x in [2, 4, 6]:
+    for y in [1, 10, 100]:
+        my_list.append(x*y)
+print(my_list)
+
+F = [0]*10
+F[1] = 'a'
+F[5] = 5
+print(F)

@@ -3,5 +3,7 @@
 t = ('one', 1, 3.1415, 'one')
 print(t.count('one'))
 print(t.index('one'))
+print(t[1])
+print(t[0])
 
 #we can't change or append tuple's items
